@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Organiza</title>
+</head>
+<body>
+    <header>
+        <h1>Organiza</h1>
+        <div id="nome"></div>
+            <section class="relogio">
+                <div class="display">
+                    00:00:00
+                </div>
+            </section>
+    </header>
+
+    <main>
+        <section class="caixa">
+            <h2>Lista de Tarefas</h2>
+            <input id="texto" type="text">
+        </section>
+
+        <section class="lista">
+            <ul id="lista">
+        
+            </ul>
+        </section>
+
+        <section class="botao-adicionar">
+            <button onclick="adicionar()">Anotar</button>
+        </section>
+    </main>
+    
+
+    <script src="./main-list.js"></script>
+    <script src="./main-timer.js"></script>
+    <script src="./main-name.jsN"></script>
+</body>
+</html>

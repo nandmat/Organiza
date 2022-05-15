@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Manrope:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Hind', sans-serif;
+}
+
+body {
+    background-image: url(./background.jfif);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+h1 {
+    margin: 1.2rem;
+    font-size: 50px;
+    font-family: 'Hind', sans-serif;
+    
+}
+
+.relogio {
+    margin: 1.2rem;
+}
+
+.display {
+    background-color: rgba(25, 27, 115, 0.3);
+    align-items: center;
+    padding: 22px;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 16px;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#texto {
+    padding-top: 5px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    color: black;
+   
+}
+
+.lista {
+    
+    margin: 3rem;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+li {
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.botao-adicionar {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    color: black;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
